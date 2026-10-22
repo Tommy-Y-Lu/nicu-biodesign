@@ -1,4 +1,4 @@
 from .platform import DeteriorationPlatform, ExperimentResult
-from .vitaldb_api import VitalDBClient
+from .vitaldb import VitalDBClient
 
 __all__ = ["DeteriorationPlatform", "ExperimentResult", "VitalDBClient"]

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from .experiments import ExperimentResult, extract_features, predict
-from .vitaldb_api import VitalDBClient
+from .vitaldb import VitalDBClient
 
 
 class DeteriorationPlatform:
